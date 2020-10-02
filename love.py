@@ -79,6 +79,8 @@ for i in range(1, 5, 3):
                                        [k*i + p*R_of_head,  human_y + 7*R_of_head/2 + human_height]])
     ellipse(screen, Blue,(k*i - R_of_head, human_y + 3*R_of_head/2, 2*R_of_head, human_height)) 
     circle(screen, Human, (k*i, human_y + R_of_head), R_of_head)
+
+#добавляю комментарий 
        
 pygame.display.update()
 clock = pygame.time.Clock()
